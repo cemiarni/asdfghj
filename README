@@ -1,0 +1,4 @@
+```
+qemu-system-x86_64 -net user,hostfwd=udp::16161-:161 -net nic disk &
+snmpwalk -c public -v2c <your ip>:16161 .
+```
